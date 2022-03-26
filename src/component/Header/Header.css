@@ -1,11 +1,31 @@
 .header{
-    text-align: center;
+    background-color: #8a4eebc7;
 }
-.header h2 {
+.header-conteiner{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title h2 {
     font-size: 32px;
     font-family: arial;
     font-weight: 600;
-    color: #f747048a;
+    color: white;
+}
+.header-menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-menu a:hover{
+color: orange;
+transition: .5s;
 }
 
 

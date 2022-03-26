@@ -1,4 +1,6 @@
 .shope-conteiner{
+    width: 80%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
@@ -6,5 +8,6 @@
 .products-conteiner{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 25px;
+    grid-gap: 45px;
+    margin-top: 25px;
 }

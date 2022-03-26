@@ -1,10 +1,18 @@
 import React from 'react';
 import './Header.css'
-// import logo from '../logo/images.jpg'
 const Header = () => {
     return (
         <nav className='header'>
-            <h2>Mobile Point</h2>
+            <div className="header-conteiner">
+                <div className="header-title">
+                    <h2>Mobile Point</h2>
+                </div>
+                <div className="header-menu">
+                    <a href="/Home">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/order">Order</a>
+                </div>
+            </div>
         </nav>
     );
 };

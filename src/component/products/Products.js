@@ -14,7 +14,7 @@ const Products = ({ product }) => {
                 <h5>Price: ${price}</h5>
                 <p>Ratings: {ratings} <small>Star</small></p>
             </div>
-            <button>Order Product</button>
+            <button className='order-button'>Order Product</button>
         </div>
     );
 };
