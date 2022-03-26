@@ -1,0 +1,8 @@
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.order-item img {
+    width: 60px;
+}
