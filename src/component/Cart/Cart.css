@@ -1,6 +1,13 @@
 .cart{
     position: sticky;
     top: 10px;
+    text-align: center;
+    border: 1px solid #cbbebe;
+    padding: 5px;
+    padding-bottom: 17px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 7px 12px grey;
 }
 h3.cart-title {
     font-family: arial;

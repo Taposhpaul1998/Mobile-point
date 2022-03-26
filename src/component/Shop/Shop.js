@@ -13,11 +13,11 @@ const Shop = () => {
     }, [])
 
     const heandelOrderCart = (product) => {
-
-        if (cart.length < 4) {
+        if (cart.length < 4 && cart.indexOf(product) === -1) {
             const newCart = [...cart, product]
             setCart(newCart);
         }
+
     }
     return (
         <div className='shope-conteiner'>
